@@ -1819,7 +1819,7 @@ SDR0403-560KL - 56uH, 10%, 500mA RMS/740mA peak</description>
 <sheet>
 <plain>
 <text x="22.86" y="81.28" size="1.778" layer="91">Sudden XCVR - Broad Band Receiver 
-RM Amplifier</text>
+RF Amplifier</text>
 <text x="38.1" y="10.16" size="1.778" layer="91">2 Bifilar Turns on FT-37-43 core
 #26 Wire</text>
 </plain>
