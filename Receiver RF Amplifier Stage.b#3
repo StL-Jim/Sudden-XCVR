@@ -158,10 +158,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="160" y2="0" width="0" layer="20"/>
-<wire x1="160" y1="0" x2="160" y2="121.59" width="0" layer="20"/>
-<wire x1="160" y1="121.59" x2="0" y2="121.59" width="0" layer="20"/>
-<wire x1="0" y1="121.59" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="115.55" y2="0" width="0" layer="20"/>
+<wire x1="115.55" y1="0" x2="115.55" y2="84.76" width="0" layer="20"/>
+<wire x1="115.55" y1="84.76" x2="0" y2="84.76" width="0" layer="20"/>
+<wire x1="0" y1="84.76" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="jim_muppet_parts">
@@ -178,17 +178,6 @@
 <text x="-3.683" y="1.905" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-3.937" y="-3.175" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-<package name="CAP-POLARIZED" urn="urn:adsk.eagle:footprint:37391/1" locally_modified="yes">
-<description>2.5 mm spaced PTHs with 6.5 mm diameter outline</description>
-<wire x1="-0.635" y1="2.032" x2="-1.905" y2="2.032" width="0.2032" layer="21"/>
-<wire x1="1.397" y1="2.032" x2="0.127" y2="2.032" width="0.2032" layer="21"/>
-<wire x1="0.762" y1="2.667" x2="0.762" y2="1.397" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="3.25" width="0.2032" layer="21"/>
-<pad name="2" x="-2.901" y="0" drill="0.000253125" diameter="3.175"/>
-<pad name="1" x="2.647" y="0" drill="0.000253125" diameter="3.175" shape="square"/>
-<text x="0" y="-3.429" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-<text x="0" y="3.429" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
 </package>
 <package name="RESITOR-MUPPET">
 <description>Resistor - Muppet style
@@ -289,6 +278,81 @@ distributor Schukat</description>
 <text x="8.128" y="-2.032" size="1.27" layer="51" ratio="10">1</text>
 <wire x1="-1.9293" y1="7.7555" x2="3.5803" y2="7.7555" width="0.127" layer="51" curve="-34.2936"/>
 </package>
+<package name="PAD-SQUARE" urn="urn:adsk.eagle:footprint:14268/1" locally_modified="yes">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 4.5 mm, square</description>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<wire x1="-3.556" y1="3.556" x2="3.683" y2="3.556" width="2" layer="39"/>
+<wire x1="3.683" y1="3.556" x2="3.556" y2="-4.318" width="2" layer="39"/>
+<wire x1="3.556" y1="-4.318" x2="-3.683" y2="-4.318" width="2" layer="39"/>
+<wire x1="-3.683" y1="-4.318" x2="-3.556" y2="3.556" width="2" layer="39"/>
+<wire x1="-3.556" y1="3.556" x2="3.556" y2="3.556" width="2" layer="40"/>
+<wire x1="3.556" y1="3.556" x2="3.429" y2="-4.318" width="2" layer="40"/>
+<wire x1="3.429" y1="-4.318" x2="-3.683" y2="-4.318" width="2" layer="40"/>
+<wire x1="-3.683" y1="-4.318" x2="-3.556" y2="3.556" width="2" layer="40"/>
+<wire x1="-3.556" y1="3.556" x2="3.556" y2="3.556" width="2" layer="43"/>
+<wire x1="3.556" y1="3.556" x2="3.556" y2="-4.445" width="2" layer="43"/>
+<wire x1="3.556" y1="-4.445" x2="-3.556" y2="-4.445" width="2" layer="43"/>
+<wire x1="-3.556" y1="-4.445" x2="-3.556" y2="3.556" width="2" layer="43"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="2.35" width="0.1524" layer="21"/>
+<pad name="PAD" x="0" y="0" drill="0.000253125" diameter="5.08" shape="square"/>
+</package>
+<package name="T37-43_BIFILAR_TOROID">
+<description>Transformer (having 3 windings) on a T50 Toroid</description>
+<wire x1="2.54" y1="8.89" x2="-2.54" y2="8.89" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="8.89" x2="-2.54" y2="6.985" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="5.715" x2="-2.54" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="4.445" x2="-2.54" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-5.715" x2="-2.54" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-8.89" x2="2.54" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-8.89" x2="2.54" y2="-8.255" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-6.985" x2="2.54" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-5.715" x2="2.54" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="3.81" width="0.127" layer="21"/>
+<wire x1="2.54" y1="4.445" x2="2.54" y2="5.08" width="0.127" layer="21"/>
+<wire x1="2.54" y1="6.35" x2="2.54" y2="8.89" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="6.35" x2="-2.54" y2="6.985" width="0.127" layer="21" curve="-180"/>
+<wire x1="-2.54" y1="5.715" x2="-2.54" y2="6.35" width="0.127" layer="21" curve="-180"/>
+<wire x1="-2.54" y1="4.445" x2="-2.54" y2="5.08" width="0.127" layer="21" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.635" width="0.127" layer="21" curve="-180"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-0.635" width="0.127" layer="21" curve="-180"/>
+<wire x1="-2.54" y1="-5.715" x2="-2.54" y2="-5.08" width="0.127" layer="21" curve="-180"/>
+<wire x1="-2.54" y1="-6.985" x2="-2.54" y2="-6.35" width="0.127" layer="21" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-6.985" width="0.127" layer="21" curve="-180"/>
+<wire x1="2.54" y1="6.35" x2="2.54" y2="5.715" width="0.127" layer="21" curve="-180"/>
+<wire x1="2.54" y1="5.715" x2="2.54" y2="5.08" width="0.127" layer="21" curve="-180"/>
+<wire x1="2.54" y1="4.445" x2="2.54" y2="3.81" width="0.127" layer="21" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-0.635" width="0.127" layer="21" curve="-180"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-1.905" width="0.127" layer="21" curve="-180"/>
+<wire x1="2.54" y1="-5.715" x2="2.54" y2="-6.35" width="0.127" layer="21" curve="-180"/>
+<wire x1="2.54" y1="-6.985" x2="2.54" y2="-7.62" width="0.127" layer="21" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-8.255" width="0.127" layer="21" curve="-180"/>
+<wire x1="-2.54" y1="6.985" x2="2.54" y2="6.35" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="6.35" x2="2.54" y2="5.715" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="5.715" x2="2.54" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="5.08" x2="2.54" y2="4.445" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="4.445" x2="2.54" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="2.54" y2="0" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.715" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-5.715" x2="2.54" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-6.35" x2="2.54" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-6.985" x2="2.54" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-7.62" x2="2.54" y2="-8.255" width="0.127" layer="21"/>
+<pad name="C1A" x="-5.08" y="-6.35" drill="0.000253125" diameter="3.81" shape="square"/>
+<pad name="C2A" x="-5.08" y="0" drill="0.000253125" diameter="3.81" shape="square"/>
+<pad name="C3A" x="-5.08" y="6.35" drill="0.000253125" diameter="3.81" shape="square" rot="R180"/>
+<text x="-8.255" y="-2.54" size="1.27" layer="25" rot="R90">&gt;Name</text>
+<text x="5.08" y="-2.54" size="1.27" layer="27" rot="R90">&gt;Value</text>
+</package>
 <package name="POWER-IN-PAD">
 <description>Single pad 200mm square, no hole.
 
@@ -301,12 +365,6 @@ I'm using it for where to start volate in.</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="CPOL-RADIAL-2.5MM-6.5MM" urn="urn:adsk.eagle:package:37415/1" locally_modified="yes" type="box">
-<description>2.5 mm spaced PTHs with 6.5 mm diameter outline</description>
-<packageinstances>
-<packageinstance name="CAP-POLARIZED"/>
-</packageinstances>
-</package3d>
 <package3d name="CA14V" urn="urn:adsk.eagle:package:22695/1" locally_modified="yes" type="box">
 <description>POTENTIOMETER
 distributor Schukat</description>
@@ -320,30 +378,13 @@ distributor Schukat</description>
 <packageinstance name="TO92"/>
 </packageinstances>
 </package3d>
+<package3d name="4,5-PAD-SQUARE" urn="urn:adsk.eagle:package:14295/1" locally_modified="yes" type="box">
+<description>MOUNTING PAD 4.5 mm, square</description>
+<packageinstances>
+<packageinstance name="PAD-SQUARE"/>
+</packageinstances>
+</package3d>
 </packages3d>
-</library>
-<library name="SparkFun-Passives">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find resistors, capacitors, inductors, test points, jumper pads, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="INDUCTOR-SRP4020">
-<smd name="P$1" x="-2.05" y="0" dx="1.5" dy="1.9" layer="1" rot="R90"/>
-<smd name="P$2" x="2.05" y="0" dx="1.5" dy="1.9" layer="1" rot="R90"/>
-<wire x1="-2" y1="2" x2="2" y2="2" width="0.127" layer="21"/>
-<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.127" layer="21"/>
-<wire x1="-2" y1="2" x2="-2" y2="1.5" width="0.127" layer="21"/>
-<wire x1="2" y1="2" x2="2" y2="1.5" width="0.127" layer="21"/>
-<wire x1="2" y1="-2" x2="2" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-2" y1="-2" x2="-2" y2="-1.5" width="0.127" layer="21"/>
-<text x="-2.032" y="2.286" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
-<text x="-2.032" y="-3.048" size="0.8128" layer="25" font="vector" ratio="15">&gt;VALUE</text>
-</package>
-</packages>
 </library>
 </libraries>
 <attributes>
@@ -538,163 +579,141 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="jim_muppet_parts" package="CAP-MEDIUM-MUPPET" value="100nF" x="111.76" y="63.5" smashed="yes">
-<attribute name="NAME" x="108.077" y="65.405" size="1.27" layer="25" font="vector"/>
-<attribute name="PROD_ID" value="JIM-CAP Large SMT" x="129.54" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="107.823" y="60.325" size="1.27" layer="27" font="vector"/>
+<element name="C1" library="jim_muppet_parts" package="CAP-MEDIUM-MUPPET" value="100nF" x="76.2" y="45.72" smashed="yes">
+<attribute name="NAME" x="72.517" y="47.625" size="1.27" layer="25" font="vector"/>
+<attribute name="PROD_ID" value="JIM-CAP Large SMT" x="93.98" y="-2.54" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="72.263" y="42.545" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="C2" library="jim_muppet_parts" package="CAP-MEDIUM-MUPPET" value="10nF" x="54.61" y="77.47" smashed="yes" rot="R90">
-<attribute name="NAME" x="52.705" y="73.787" size="1.27" layer="25" font="vector" rot="R90"/>
-<attribute name="PROD_ID" value="JIM-CAP Large SMT" x="102.87" y="105.41" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="57.785" y="73.533" size="1.27" layer="27" font="vector" rot="R90"/>
+<element name="C2" library="jim_muppet_parts" package="CAP-MEDIUM-MUPPET" value="10nF" x="35.56" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="33.655" y="49.657" size="1.27" layer="25" font="vector" rot="R90"/>
+<attribute name="PROD_ID" value="JIM-CAP Large SMT" x="83.82" y="81.28" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="38.735" y="49.403" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="C3" library="jim_muppet_parts" package="CAP-MEDIUM-MUPPET" value="10uF" x="92.71" y="17.78" smashed="yes" rot="R90">
-<attribute name="NAME" x="90.805" y="14.097" size="1.27" layer="25" font="vector" rot="R90"/>
-<attribute name="PROD_ID" value="JIM-CAP Large SMT" x="140.97" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="95.885" y="13.843" size="1.27" layer="27" font="vector" rot="R90"/>
+<element name="C3" library="jim_muppet_parts" package="CAP-MEDIUM-MUPPET" value="10uF" x="73.66" y="13.97" smashed="yes" rot="R90">
+<attribute name="NAME" x="71.755" y="10.287" size="1.27" layer="25" font="vector" rot="R90"/>
+<attribute name="PROD_ID" value="JIM-CAP Large SMT" x="121.92" y="52.07" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="76.835" y="10.033" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="C4" library="jim_muppet_parts" package="CAP-MEDIUM-MUPPET" value="470pF" x="58.42" y="46.99" smashed="yes" rot="R90">
-<attribute name="NAME" x="56.515" y="43.307" size="1.27" layer="25" font="vector" rot="R90"/>
-<attribute name="PROD_ID" value="JIM-CAP Large SMT" x="106.68" y="95.25" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="61.595" y="43.053" size="1.27" layer="27" font="vector" rot="R90"/>
+<element name="C4" library="jim_muppet_parts" package="CAP-MEDIUM-MUPPET" value="470pF" x="41.91" y="26.67" smashed="yes" rot="R90">
+<attribute name="NAME" x="40.005" y="22.987" size="1.27" layer="25" font="vector" rot="R90"/>
+<attribute name="PROD_ID" value="JIM-CAP Large SMT" x="90.17" y="74.93" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="45.085" y="22.733" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="C5" library="jim_muppet_parts" package="CAP-POLARIZED" package3d_urn="urn:adsk.eagle:package:37415/1" value="????" x="148.59" y="53.34" smashed="yes" rot="R90">
-<attribute name="NAME" x="145.161" y="53.34" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-08439" x="180.34" y="71.12" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="152.019" y="53.34" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<element name="R1" library="jim_muppet_parts" package="RESITOR-MUPPET" value="100R" x="50.8" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="48.768" y="64.77" size="1.27" layer="25" rot="R90"/>
+<attribute name="PROD_ID" value="MUP-RES" x="81.28" y="106.68" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="54.102" y="64.643" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C6" library="jim_muppet_parts" package="CAP-POLARIZED" package3d_urn="urn:adsk.eagle:package:37415/1" value="????" x="148.59" y="21.59" smashed="yes" rot="R90">
-<attribute name="NAME" x="145.161" y="21.59" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-08439" x="180.34" y="49.53" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="152.019" y="21.59" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<element name="R2" library="jim_muppet_parts" package="RESITOR-MUPPET" value="2.2K" x="66.04" y="31.75" smashed="yes" rot="R90">
+<attribute name="NAME" x="64.008" y="27.94" size="1.27" layer="25" rot="R90"/>
+<attribute name="PROD_ID" value="MUP-RES" x="96.52" y="80.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="69.342" y="27.813" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="L1" library="SparkFun-Passives" package="INDUCTOR-SRP4020" value="1.5uH" x="50.8" y="27.94" smashed="yes" rot="R270">
-<attribute name="NAME" x="53.086" y="29.972" size="0.8128" layer="25" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="47.752" y="29.972" size="0.8128" layer="25" font="vector" ratio="15" rot="R270"/>
+<element name="R3" library="jim_muppet_parts" package="RESITOR-MUPPET" value="1K" x="66.04" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="64.008" y="64.77" size="1.27" layer="25" rot="R90"/>
+<attribute name="PROD_ID" value="MUP-RES" x="106.68" y="86.36" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="69.342" y="64.643" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="L2" library="SparkFun-Passives" package="INDUCTOR-SRP4020" value="1.5uH" x="62.23" y="20.32" smashed="yes" rot="MR90">
-<attribute name="NAME" x="64.516" y="18.288" size="0.8128" layer="26" font="vector" ratio="15" rot="MR90"/>
-<attribute name="VALUE" x="59.182" y="18.288" size="0.8128" layer="26" font="vector" ratio="15" rot="MR90"/>
+<element name="R4" library="jim_muppet_parts" package="RESITOR-MUPPET" value="10R" x="85.09" y="27.94" smashed="yes" rot="R90">
+<attribute name="NAME" x="83.058" y="24.13" size="1.27" layer="25" rot="R90"/>
+<attribute name="PROD_ID" value="MUP-RES" x="125.73" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="88.392" y="24.003" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R1" library="jim_muppet_parts" package="RESITOR-MUPPET" value="100R" x="69.85" y="92.71" smashed="yes" rot="R90">
-<attribute name="NAME" x="67.818" y="88.9" size="1.27" layer="25" rot="R90"/>
-<attribute name="PROD_ID" value="MUP-RES" x="100.33" y="130.81" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="73.152" y="88.773" size="1.27" layer="27" rot="R90"/>
+<element name="R5" library="jim_muppet_parts" package="RESITOR-MUPPET" value="100R" x="30.48" y="26.67" smashed="yes" rot="R270">
+<attribute name="NAME" x="32.512" y="30.48" size="1.27" layer="25" rot="R270"/>
+<attribute name="PROD_ID" value="MUP-RES" x="-10.16" y="-11.43" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="27.178" y="30.607" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R2" library="jim_muppet_parts" package="RESITOR-MUPPET" value="2.2K" x="92.71" y="33.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="90.678" y="29.21" size="1.27" layer="25" rot="R90"/>
-<attribute name="PROD_ID" value="MUP-RES" x="123.19" y="81.28" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="96.012" y="29.083" size="1.27" layer="27" rot="R90"/>
+<element name="R6" library="jim_muppet_parts" package="RESITOR-MUPPET" value="18R" x="35.56" y="68.58" smashed="yes" rot="R270">
+<attribute name="NAME" x="37.592" y="72.39" size="1.27" layer="25" rot="R270"/>
+<attribute name="PROD_ID" value="MUP-RES" x="-5.08" y="20.32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="32.258" y="72.517" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R3" library="jim_muppet_parts" package="RESITOR-MUPPET" value="1K" x="92.71" y="92.71" smashed="yes" rot="R90">
-<attribute name="NAME" x="90.678" y="88.9" size="1.27" layer="25" rot="R90"/>
-<attribute name="PROD_ID" value="MUP-RES" x="133.35" y="110.49" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="96.012" y="88.773" size="1.27" layer="27" rot="R90"/>
+<element name="R7" library="jim_muppet_parts" package="CA14V" package3d_urn="urn:adsk.eagle:package:22695/1" value="100R" x="12.7" y="24.13" smashed="yes" rot="R90">
+<attribute name="NAME" x="5.08" y="17.145" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="5.08" y="22.987" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R4" library="jim_muppet_parts" package="RESITOR-MUPPET" value="10R" x="111.76" y="21.59" smashed="yes" rot="R90">
-<attribute name="NAME" x="109.728" y="17.78" size="1.27" layer="25" rot="R90"/>
-<attribute name="PROD_ID" value="MUP-RES" x="152.4" y="49.53" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="115.062" y="17.653" size="1.27" layer="27" rot="R90"/>
+<element name="T1" library="jim_muppet_parts" package="TO92" package3d_urn="urn:adsk.eagle:package:29893/2" value="2N2222" x="54.61" y="45.72" smashed="yes" rot="R270">
+<attribute name="NAME" x="42.672" y="47.625" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="44.577" y="49.149" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="R5" library="jim_muppet_parts" package="RESITOR-MUPPET" value="100R" x="44.45" y="46.99" smashed="yes" rot="R270">
-<attribute name="NAME" x="46.482" y="50.8" size="1.27" layer="25" rot="R270"/>
-<attribute name="PROD_ID" value="MUP-RES" x="3.81" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="41.148" y="50.927" size="1.27" layer="27" rot="R270"/>
+<element name="H1" library="jim_muppet_parts" package="PAD-SQUARE" package3d_urn="urn:adsk.eagle:package:14295/1" value="RF Signal In" x="100.33" y="30.48" smashed="yes"/>
+<element name="U$1" library="jim_muppet_parts" package="T37-43_BIFILAR_TOROID" value="T37-43_BIFILAR_TORIODBIFILAR-COIL/TRANSFORMER" x="-6.35" y="2.54" smashed="yes">
+<attribute name="NAME" x="-14.605" y="0" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="-1.27" y="0" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R6" library="jim_muppet_parts" package="RESITOR-MUPPET" value="18R" x="54.61" y="92.71" smashed="yes" rot="R270">
-<attribute name="NAME" x="56.642" y="96.52" size="1.27" layer="25" rot="R270"/>
-<attribute name="PROD_ID" value="MUP-RES" x="13.97" y="44.45" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="51.308" y="96.647" size="1.27" layer="27" rot="R270"/>
-</element>
-<element name="R7" library="jim_muppet_parts" package="CA14V" package3d_urn="urn:adsk.eagle:package:22695/1" value="100R" x="25.4" y="44.45" smashed="yes" rot="R90">
-<attribute name="NAME" x="17.78" y="37.465" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="17.78" y="43.307" size="1.27" layer="27" ratio="10" rot="R90"/>
-</element>
-<element name="T1" library="jim_muppet_parts" package="TO92" package3d_urn="urn:adsk.eagle:package:29893/2" value="2N2222" x="73.66" y="64.77" smashed="yes" rot="R270">
-<attribute name="NAME" x="61.722" y="66.675" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="63.627" y="68.199" size="1.27" layer="27" ratio="10" rot="R270"/>
-</element>
-<element name="+12V" library="jim_muppet_parts" package="POWER-IN-PAD" value="+12V" x="86.36" y="114.3" smashed="yes"/>
+<element name="P+1" library="jim_muppet_parts" package="POWER-IN-PAD" value="+12V" x="-12.7" y="-10.16" smashed="yes"/>
 </elements>
 <signals>
 <signal name="N$1">
-<contactref element="T1" pad="2"/>
 <contactref element="C1" pad="1"/>
 <contactref element="R2" pad="P$2"/>
 <contactref element="R3" pad="P$1"/>
-<wire x1="76.708" y1="63.754" x2="92.71" y2="89.916" width="0" layer="19" extent="1-1"/>
-<wire x1="108.751" y1="63.5" x2="92.71" y2="89.916" width="0" layer="19" extent="1-1"/>
-<wire x1="92.71" y1="35.814" x2="108.751" y2="63.5" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$2">
-<contactref element="C1" pad="2"/>
-<contactref element="C5" pad="1"/>
-<wire x1="114.769" y1="63.5" x2="148.59" y2="55.987" width="0" layer="19" extent="1-1"/>
+<contactref element="T1" pad="2"/>
+<wire x1="73.191" y1="45.72" x2="66.04" y2="65.786" width="0" layer="19" extent="1-1"/>
+<wire x1="66.04" y1="34.544" x2="73.191" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="57.658" y1="44.704" x2="66.04" y2="34.544" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
-<contactref element="C5" pad="2"/>
 <contactref element="R7" pad="A"/>
 <contactref element="R5" pad="P$2"/>
 <contactref element="C3" pad="1"/>
-<contactref element="C6" pad="2"/>
-<wire x1="148.59" y1="18.689" x2="148.59" y2="50.439" width="0" layer="19" extent="1-1"/>
-<wire x1="92.71" y1="14.771" x2="148.59" y2="18.689" width="0" layer="19" extent="1-1"/>
-<wire x1="44.45" y1="44.196" x2="92.71" y2="14.771" width="0" layer="19" extent="1-1"/>
-<wire x1="33.02" y1="39.37" x2="44.45" y2="44.196" width="0" layer="19" extent="1-1"/>
+<contactref element="R6" pad="P$1"/>
+<contactref element="R3" pad="P$2"/>
+<contactref element="R1" pad="P$2"/>
+<wire x1="50.8" y1="71.374" x2="66.04" y2="71.374" width="0" layer="19" extent="1-1"/>
+<wire x1="35.56" y1="71.374" x2="50.8" y2="71.374" width="0" layer="19" extent="1-1"/>
+<wire x1="30.48" y1="23.876" x2="35.56" y2="71.374" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="19.05" x2="30.48" y2="23.876" width="0" layer="19" extent="1-1"/>
+<wire x1="73.66" y1="10.961" x2="30.48" y2="23.876" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
-<contactref element="T1" pad="3"/>
-<contactref element="R1" pad="P$1"/>
 <contactref element="C2" pad="1"/>
-<wire x1="69.469" y1="69.469" x2="69.85" y2="89.916" width="0" layer="19" extent="1-1"/>
-<wire x1="54.61" y1="74.461" x2="69.469" y2="69.469" width="0" layer="19" extent="1-1"/>
+<contactref element="T1" pad="1"/>
+<contactref element="R1" pad="P$1"/>
+<wire x1="35.56" y1="50.331" x2="50.8" y2="65.786" width="0" layer="19" extent="1-1"/>
+<wire x1="50.419" y1="40.005" x2="35.56" y2="50.331" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="C2" pad="2"/>
 <contactref element="R6" pad="P$2"/>
-<wire x1="54.61" y1="80.479" x2="54.61" y2="89.916" width="0" layer="19" extent="1-1"/>
+<wire x1="35.56" y1="56.349" x2="35.56" y2="65.786" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
-<contactref element="T1" pad="1"/>
-<contactref element="L1" pad="P$1"/>
-<wire x1="50.8" y1="29.99" x2="69.469" y2="59.055" width="0" layer="19" extent="1-1"/>
+<contactref element="T1" pad="3"/>
+<contactref element="U$1" pad="C2A"/>
+<wire x1="-11.43" y1="2.54" x2="50.419" y2="50.419" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
-<contactref element="L1" pad="P$2"/>
-<contactref element="L2" pad="P$1"/>
 <contactref element="C4" pad="1"/>
-<wire x1="50.8" y1="25.89" x2="58.42" y2="43.981" width="0" layer="19" extent="1-1"/>
-<wire x1="62.23" y1="18.27" x2="50.8" y2="25.89" width="0" layer="19" extent="1-16"/>
+<contactref element="U$1" pad="C3A"/>
+<wire x1="-11.43" y1="8.89" x2="41.91" y2="23.661" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="R2" pad="P$1"/>
 <contactref element="C3" pad="2"/>
-<contactref element="L2" pad="P$2"/>
 <contactref element="R4" pad="P$1"/>
-<wire x1="92.71" y1="20.789" x2="111.76" y2="18.796" width="0" layer="19" extent="1-1"/>
-<wire x1="92.71" y1="30.226" x2="92.71" y2="20.789" width="0" layer="19" extent="1-1"/>
-<wire x1="62.23" y1="22.37" x2="92.71" y2="20.789" width="0" layer="19" extent="1-16"/>
+<contactref element="U$1" pad="C1A"/>
+<wire x1="73.66" y1="16.979" x2="85.09" y2="25.146" width="0" layer="19" extent="1-1"/>
+<wire x1="66.04" y1="28.956" x2="73.66" y2="16.979" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.43" y1="-3.81" x2="66.04" y2="28.956" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="C4" pad="2"/>
 <contactref element="R7" pad="E"/>
 <contactref element="R5" pad="P$1"/>
-<wire x1="44.45" y1="49.784" x2="58.42" y2="49.999" width="0" layer="19" extent="1-1"/>
-<wire x1="33.02" y1="49.53" x2="44.45" y2="49.784" width="0" layer="19" extent="1-1"/>
+<wire x1="30.48" y1="29.464" x2="41.91" y2="29.679" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="29.21" x2="30.48" y2="29.464" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
-<contactref element="C6" pad="1"/>
 <contactref element="R4" pad="P$2"/>
-<wire x1="111.76" y1="24.384" x2="148.59" y2="24.237" width="0" layer="19" extent="1-1"/>
+<contactref element="H1" pad="PAD"/>
+<wire x1="100.33" y1="30.48" x2="85.09" y2="30.734" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="3.3V">
-<contactref element="R6" pad="P$1"/>
-<contactref element="R3" pad="P$2"/>
-<contactref element="R1" pad="P$2"/>
-<contactref element="+12V" pad="VCC"/>
-<wire x1="92.71" y1="95.504" x2="86.36" y2="114.3" width="0" layer="19" extent="1-1"/>
-<wire x1="69.85" y1="95.504" x2="92.71" y2="95.504" width="0" layer="19" extent="1-1"/>
-<wire x1="54.61" y1="95.504" x2="69.85" y2="95.504" width="0" layer="19" extent="1-1"/>
+<signal name="+12V">
+<contactref element="C1" pad="2"/>
+<contactref element="P+1" pad="VCC"/>
+<wire x1="-12.7" y1="-10.16" x2="79.209" y2="45.72" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
