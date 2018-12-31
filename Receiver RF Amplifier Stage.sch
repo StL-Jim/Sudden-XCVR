@@ -160,28 +160,6 @@
 <libraries>
 <library name="jim_muppet_parts">
 <packages>
-<package name="TO92" urn="urn:adsk.eagle:footprint:29825/1" locally_modified="yes">
-<description>&lt;b&gt;TO 92&lt;/b&gt;</description>
-<wire x1="-7.4286" y1="-7.62" x2="-8.1159" y2="-6.477" width="0.127" layer="21" curve="-32.781"/>
-<wire x1="-8.1159" y1="-6.477" x2="-1.9293" y2="7.7555" width="0.127" layer="21" curve="-78.3185"/>
-<wire x1="3.4533" y1="7.7554" x2="7.6825" y2="-7.62" width="0.127" layer="21" curve="-111.1"/>
-<wire x1="1.4615" y1="-7.62" x2="7.6825" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="-7.3337" y1="-7.62" x2="-1.8103" y2="-7.62" width="0.127" layer="51"/>
-<wire x1="-8.1159" y1="-6.477" x2="8.4143" y2="-6.477" width="0.127" layer="21"/>
-<wire x1="-1.9373" y1="-7.62" x2="-0.4757" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="3.1427" y1="-0.635" x2="3.5439" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-0.4757" y1="-7.62" x2="1.4917" y2="-7.62" width="0.127" layer="51"/>
-<wire x1="-1.9293" y1="7.7555" x2="3.5803" y2="7.7555" width="0.127" layer="51" curve="-34.2936"/>
-<pad name="1" x="5.715" y="-4.191" drill="0.000253125" diameter="5.08" shape="octagon"/>
-<pad name="2" x="1.016" y="3.048" drill="0.000253125" diameter="5.08" shape="octagon"/>
-<pad name="3" x="-4.699" y="-4.191" drill="0.000253125" diameter="5.08" shape="octagon"/>
-<text x="4.953" y="1.905" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-9.652" y="1.27" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-2.413" y="5.207" size="1.27" layer="51" ratio="10">2</text>
-<text x="-7.366" y="-1.905" size="1.27" layer="51" ratio="10">3</text>
-<text x="8.128" y="-2.032" size="1.27" layer="51" ratio="10">1</text>
-<wire x1="-1.9293" y1="7.7555" x2="3.5803" y2="7.7555" width="0.127" layer="51" curve="-34.2936"/>
-</package>
 <package name="RESITOR-MUPPET">
 <description>Resistor - Muppet style
 120 square pads</description>
@@ -459,9 +437,9 @@ Copal</description>
 <wire x1="-1.905" y1="1.651" x2="-2.159" y2="1.905" width="0.1524" layer="21"/>
 <wire x1="-2.5146" y1="0" x2="-2.8956" y2="0" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="2.032" width="0.1524" layer="51"/>
-<pad name="A" x="2.5146" y="0" drill="0.8128" shape="octagon"/>
-<pad name="E" x="-2.5146" y="0" drill="0.8128" shape="octagon"/>
-<pad name="S" x="0" y="-2.54" drill="0.8128" shape="octagon"/>
+<pad name="A" x="2.5146" y="0" drill="0.000253125" diameter="2.54" shape="octagon"/>
+<pad name="E" x="-2.5146" y="0" drill="0.000253125" diameter="2.54" shape="octagon"/>
+<pad name="S" x="0" y="-2.54" drill="0.000253125" diameter="2.54" shape="octagon"/>
 <text x="-3.302" y="3.937" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.2766" y="-5.207" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-3.048" y="-3.175" size="0.9906" layer="21" ratio="12">3</text>
@@ -636,82 +614,58 @@ Spectrol</description>
 <text x="0.762" y="-2.667" size="0.9906" layer="21" ratio="12">3</text>
 <text x="-1.524" y="-2.667" size="0.9906" layer="21" ratio="12">1</text>
 </package>
-<package name="CIP20C-6MM" urn="urn:adsk.eagle:footprint:22663/1">
-<description>&lt;b&gt;Carbon Rotary Potentiometers - 20 mm size&lt;/b&gt;&lt;p&gt;
-Source: Radiohm .. RAD.pdf</description>
-<wire x1="-10.1" y1="-1.125" x2="-10.1" y2="6.675" width="0.2032" layer="21"/>
-<wire x1="-10.1" y1="6.675" x2="10.1" y2="6.675" width="0.2032" layer="21"/>
-<wire x1="10.1" y1="6.675" x2="10.1" y2="-1.125" width="0.2032" layer="21"/>
-<wire x1="10.1" y1="-1.125" x2="10.1" y2="-3.8" width="0.2032" layer="21"/>
-<wire x1="10.1" y1="-3.8" x2="-10.1" y2="-3.8" width="0.2032" layer="21"/>
-<wire x1="-10.1" y1="-3.8" x2="-10.1" y2="-1.125" width="0.2032" layer="21"/>
-<wire x1="3.9" y1="-3.9" x2="3.9" y2="-11.8" width="0.2032" layer="21"/>
-<wire x1="3.9" y1="-11.8" x2="-3.9" y2="-11.8" width="0.2032" layer="21"/>
-<wire x1="-3.9" y1="-11.8" x2="-3.9" y2="-3.875" width="0.2032" layer="21"/>
-<wire x1="2.9" y1="-11.85" x2="2.9" y2="-52.8" width="0.2032" layer="21"/>
-<wire x1="2.9" y1="-52.8" x2="1.9" y2="-53.8" width="0.2032" layer="21"/>
-<wire x1="1.9" y1="-53.8" x2="-1.9" y2="-53.8" width="0.2032" layer="21"/>
-<wire x1="-1.9" y1="-53.8" x2="-2.9" y2="-52.8" width="0.2032" layer="21"/>
-<wire x1="-2.9" y1="-52.8" x2="-2.9" y2="-11.875" width="0.2032" layer="21"/>
-<wire x1="10.1" y1="-1.125" x2="-10.1" y2="-1.125" width="0.2032" layer="21"/>
-<pad name="A" x="-5" y="0" drill="1.3" diameter="1.9304"/>
-<pad name="S" x="0" y="0" drill="1.3" diameter="1.9304"/>
-<pad name="E" x="5" y="0" drill="1.3" diameter="1.9304"/>
-<text x="-10.16" y="6.985" size="1.27" layer="25">&gt;NAME</text>
-<text x="-8.255" y="3.175" size="1.27" layer="27">&gt;VALUE</text>
-</package>
 <package name="T37-43_BIFILAR_TOROID">
 <description>Transformer (having 3 windings) on a T50 Toroid</description>
-<wire x1="2.54" y1="8.89" x2="-2.54" y2="8.89" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="8.89" x2="-2.54" y2="6.985" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="5.715" x2="-2.54" y2="5.08" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="4.445" x2="-2.54" y2="0.635" width="0.127" layer="21"/>
+<wire x1="2.54" y1="6.35" x2="-2.54" y2="6.35" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="6.35" x2="-2.54" y2="5.715" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="4.445" x2="-2.54" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="3.175" x2="-2.54" y2="0.635" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="0" x2="-2.54" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-5.715" x2="-2.54" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-8.89" x2="2.54" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-8.89" x2="2.54" y2="-8.255" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-6.985" x2="2.54" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-5.715" x2="2.54" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-4.445" x2="-2.54" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-6.35" x2="-2.54" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-7.62" x2="2.54" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-5.715" x2="2.54" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-4.445" x2="2.54" y2="-1.905" width="0.127" layer="21"/>
 <wire x1="2.54" y1="-1.27" x2="2.54" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="3.81" width="0.127" layer="21"/>
-<wire x1="2.54" y1="4.445" x2="2.54" y2="5.08" width="0.127" layer="21"/>
-<wire x1="2.54" y1="6.35" x2="2.54" y2="8.89" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="6.35" x2="-2.54" y2="6.985" width="0.127" layer="21" curve="-180"/>
-<wire x1="-2.54" y1="5.715" x2="-2.54" y2="6.35" width="0.127" layer="21" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="3.175" x2="2.54" y2="3.81" width="0.127" layer="21"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="6.35" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="5.715" width="0.127" layer="21" curve="-180"/>
 <wire x1="-2.54" y1="4.445" x2="-2.54" y2="5.08" width="0.127" layer="21" curve="-180"/>
+<wire x1="-2.54" y1="3.175" x2="-2.54" y2="3.81" width="0.127" layer="21" curve="-180"/>
 <wire x1="-2.54" y1="0" x2="-2.54" y2="0.635" width="0.127" layer="21" curve="-180"/>
 <wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-0.635" width="0.127" layer="21" curve="-180"/>
+<wire x1="-2.54" y1="-4.445" x2="-2.54" y2="-3.81" width="0.127" layer="21" curve="-180"/>
 <wire x1="-2.54" y1="-5.715" x2="-2.54" y2="-5.08" width="0.127" layer="21" curve="-180"/>
-<wire x1="-2.54" y1="-6.985" x2="-2.54" y2="-6.35" width="0.127" layer="21" curve="-180"/>
-<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-6.985" width="0.127" layer="21" curve="-180"/>
-<wire x1="2.54" y1="6.35" x2="2.54" y2="5.715" width="0.127" layer="21" curve="-180"/>
-<wire x1="2.54" y1="5.715" x2="2.54" y2="5.08" width="0.127" layer="21" curve="-180"/>
+<wire x1="-2.54" y1="-6.35" x2="-2.54" y2="-5.715" width="0.127" layer="21" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="4.445" width="0.127" layer="21" curve="-180"/>
 <wire x1="2.54" y1="4.445" x2="2.54" y2="3.81" width="0.127" layer="21" curve="-180"/>
+<wire x1="2.54" y1="3.175" x2="2.54" y2="2.54" width="0.127" layer="21" curve="-180"/>
 <wire x1="2.54" y1="0" x2="2.54" y2="-0.635" width="0.127" layer="21" curve="-180"/>
 <wire x1="2.54" y1="-1.27" x2="2.54" y2="-1.905" width="0.127" layer="21" curve="-180"/>
+<wire x1="2.54" y1="-4.445" x2="2.54" y2="-5.08" width="0.127" layer="21" curve="-180"/>
 <wire x1="2.54" y1="-5.715" x2="2.54" y2="-6.35" width="0.127" layer="21" curve="-180"/>
-<wire x1="2.54" y1="-6.985" x2="2.54" y2="-7.62" width="0.127" layer="21" curve="-180"/>
-<wire x1="2.54" y1="-7.62" x2="2.54" y2="-8.255" width="0.127" layer="21" curve="-180"/>
-<wire x1="-2.54" y1="6.985" x2="2.54" y2="6.35" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="6.35" x2="2.54" y2="5.715" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-6.35" x2="2.54" y2="-6.985" width="0.127" layer="21" curve="-180"/>
 <wire x1="-2.54" y1="5.715" x2="2.54" y2="5.08" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="5.08" x2="2.54" y2="4.445" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="4.445" x2="2.54" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="3.81" x2="2.54" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="3.175" x2="2.54" y2="2.54" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="0.635" x2="2.54" y2="0" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="0" x2="2.54" y2="-0.635" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="-0.635" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-3.81" x2="2.54" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-4.445" x2="2.54" y2="-5.08" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.715" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="-5.715" x2="2.54" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="-6.35" x2="2.54" y2="-6.985" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-6.985" x2="2.54" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-7.62" x2="2.54" y2="-8.255" width="0.127" layer="21"/>
-<pad name="C1A" x="-5.08" y="-6.35" drill="0.000253125" diameter="3.81" shape="square"/>
-<pad name="C2A" x="-5.08" y="0" drill="0.000253125" diameter="3.81" shape="square"/>
-<pad name="C3A" x="-5.08" y="6.35" drill="0.000253125" diameter="3.81" shape="square" rot="R180"/>
-<text x="-8.255" y="-2.54" size="1.27" layer="25" rot="R90">&gt;Name</text>
+<pad name="C1A" x="-5.08" y="-5.08" drill="0.000253125" diameter="3.048" shape="square"/>
+<pad name="C2A" x="-5.08" y="0" drill="0.000253125" diameter="3.048" shape="square"/>
+<pad name="C3A" x="-5.08" y="5.08" drill="0.000253125" diameter="3.048" shape="square" rot="R180"/>
+<text x="-6.985" y="-2.54" size="1.27" layer="25" rot="R90">&gt;Name</text>
 <text x="5.08" y="-2.54" size="1.27" layer="27" rot="R90">&gt;Value</text>
 </package>
 <package name="POWER-IN-PAD">
@@ -745,14 +699,24 @@ I'm using it for where to start volate in.</description>
 <circle x="0" y="0" radius="2.35" width="0.1524" layer="21"/>
 <pad name="PAD" x="0" y="0" drill="0.000253125" diameter="5.08" shape="square"/>
 </package>
+<package name="2N2222-TO18" urn="urn:adsk.eagle:footprint:28650/1" locally_modified="yes">
+<description>&lt;b&gt;TO 18&lt;/b&gt;</description>
+<wire x1="-6.604" y1="-0.508" x2="-6.604" y2="1.016" width="0.127" layer="21"/>
+<wire x1="-6.604" y1="-0.508" x2="-4.5275" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="-6.604" y1="1.016" x2="-4.5275" y2="1.016" width="0.127" layer="21"/>
+<circle x="1.778" y="-0.381" radius="6.35" width="0.127" layer="21"/>
+<pad name="1" x="0.127" y="-0.127" drill="0.000025" diameter="2.54" shape="octagon"/>
+<pad name="2" x="3.429" y="-1.905" drill="0.000025" diameter="2.54" shape="octagon"/>
+<pad name="3" x="3.429" y="1.905" drill="0.000025" diameter="2.54" shape="octagon"/>
+<text x="-4.445" y="2.159" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.588" y="-3.683" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.286" y="-0.635" size="1.27" layer="51" ratio="10">1</text>
+<text x="1.905" y="-4.699" size="1.27" layer="51" ratio="10">2</text>
+<text x="5.08" y="1.143" size="1.27" layer="51" ratio="10">3</text>
+<circle x="1.905" y="-0.381" radius="5.08" width="0.127" layer="21"/>
+</package>
 </packages>
 <packages3d>
-<package3d name="TO92" urn="urn:adsk.eagle:package:29893/2" locally_modified="yes" type="model">
-<description>TO 92</description>
-<packageinstances>
-<packageinstance name="TO92"/>
-</packageinstances>
-</package3d>
 <package3d name="B25U" urn="urn:adsk.eagle:package:22685/1" type="box">
 <description>POTENTIOMETER
 Beckman Helitrim 25</description>
@@ -821,39 +785,20 @@ Spectrol</description>
 <packageinstance name="S75P"/>
 </packageinstances>
 </package3d>
-<package3d name="CIP20C-6MM" urn="urn:adsk.eagle:package:22723/1" type="box">
-<description>Carbon Rotary Potentiometers - 20 mm size
-Source: Radiohm .. RAD.pdf</description>
-<packageinstances>
-<packageinstance name="CIP20C-6MM"/>
-</packageinstances>
-</package3d>
 <package3d name="4,5-PAD-SQUARE" urn="urn:adsk.eagle:package:14295/1" locally_modified="yes" type="box">
 <description>MOUNTING PAD 4.5 mm, square</description>
 <packageinstances>
 <packageinstance name="PAD-SQUARE"/>
 </packageinstances>
 </package3d>
+<package3d name="TO18" urn="urn:adsk.eagle:package:28728/1" locally_modified="yes" type="box">
+<description>TO 18</description>
+<packageinstances>
+<packageinstance name="2N2222-TO18"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
-<symbol name="NPN-1">
-<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="1.54" y1="-2.04" x2="0.308" y2="-1.424" width="0.1524" layer="94"/>
-<wire x1="1.524" y1="-2.413" x2="2.286" y2="-2.413" width="0.254" layer="94"/>
-<wire x1="2.286" y1="-2.413" x2="1.778" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="1.778" y1="-1.778" x2="1.524" y2="-2.286" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-2.286" x2="1.905" y2="-2.286" width="0.254" layer="94"/>
-<wire x1="1.905" y1="-2.286" x2="1.778" y2="-2.032" width="0.254" layer="94"/>
-<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
-<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
-<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
-</symbol>
 <symbol name="RESISTOR">
 <wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
 <wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
@@ -952,29 +897,26 @@ Source: Radiohm .. RAD.pdf</description>
 <rectangle x1="1.524" y1="0.254" x2="2.54" y2="2.54" layer="94"/>
 <pin name="MOUNT" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
+<symbol name="NPN">
+<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="1.54" y1="-2.04" x2="0.308" y2="-1.424" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="-2.413" x2="2.286" y2="-2.413" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-2.413" x2="1.778" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-1.778" x2="1.524" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-2.286" x2="1.905" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-2.286" x2="1.778" y2="-2.032" width="0.254" layer="94"/>
+<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
+<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
+<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="2N3904" prefix="T">
-<description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
-<gates>
-<gate name="G1" symbol="NPN-1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TO92">
-<connects>
-<connect gate="G1" pin="B" pad="2"/>
-<connect gate="G1" pin="C" pad="1"/>
-<connect gate="G1" pin="E" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:29893/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="RESISTOR-MUPPET">
 <description>Muppet stype resitor
 120 square pad</description>
@@ -1153,19 +1095,6 @@ Source: Radiohm .. RAD.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="CIP20C-6MM" package="CIP20C-6MM">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="E" pad="E"/>
-<connect gate="G$1" pin="S" pad="S"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22723/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 </devices>
 </deviceset>
 <deviceset name="T37-43_BIFILAR_TORIOD">
@@ -1224,6 +1153,27 @@ Source: Radiohm .. RAD.pdf</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="2N2222" prefix="T">
+<description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="2N2222-TO18">
+<connects>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:28728/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="supply1" urn="urn:adsk.eagle:library:371">
@@ -1265,11 +1215,11 @@ Source: Radiohm .. RAD.pdf</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.9398" drill="0">
+<clearance class="0" value="0.889"/>
 </class>
 </classes>
 <parts>
-<part name="T1" library="jim_muppet_parts" deviceset="2N3904" device="" package3d_urn="urn:adsk.eagle:package:29893/2" value="2N2222"/>
 <part name="R1" library="jim_muppet_parts" deviceset="RESISTOR-MUPPET" device="MEDIUM-RESISTOR-PADS" value="100R"/>
 <part name="R2" library="jim_muppet_parts" deviceset="RESISTOR-MUPPET" device="MEDIUM-RESISTOR-PADS" value="2.2K"/>
 <part name="R3" library="jim_muppet_parts" deviceset="RESISTOR-MUPPET" device="MEDIUM-RESISTOR-PADS" value="1K"/>
@@ -1280,7 +1230,6 @@ Source: Radiohm .. RAD.pdf</description>
 <part name="C2" library="jim_muppet_parts" deviceset="CAP-MEDIUM-MUPPET" device="" value="10nF"/>
 <part name="C3" library="jim_muppet_parts" deviceset="CAP-MEDIUM-MUPPET" device="" value="10uF"/>
 <part name="C4" library="jim_muppet_parts" deviceset="CAP-MEDIUM-MUPPET" device="" value="470pF"/>
-<part name="R7" library="jim_muppet_parts" deviceset="POTENTIOMETER-TRIM" device="CA14V" package3d_urn="urn:adsk.eagle:package:22695/1" value="100R"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="L1-L2" library="jim_muppet_parts" deviceset="T37-43_BIFILAR_TORIOD" device="BIFILAR-COIL/TRANSFORMER"/>
@@ -1289,6 +1238,9 @@ Source: Radiohm .. RAD.pdf</description>
 <part name="AC-SIGNAL" library="jim_muppet_parts" deviceset="MOUNT-PAD-SQUARE" device="4.5" package3d_urn="urn:adsk.eagle:package:14295/1" value="IN FROM ?">
 <attribute name="SPICEPREFIX" value="A"/>
 </part>
+<part name="AC-SIGNAL-OUT" library="jim_muppet_parts" deviceset="MOUNT-PAD-SQUARE" device="4.5" package3d_urn="urn:adsk.eagle:package:14295/1" value="Output from Center Wiper"/>
+<part name="R11" library="jim_muppet_parts" deviceset="POTENTIOMETER-TRIM" device="CT6" package3d_urn="urn:adsk.eagle:package:22692/1"/>
+<part name="T1" library="jim_muppet_parts" deviceset="2N2222" device="" package3d_urn="urn:adsk.eagle:package:28728/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -1306,17 +1258,13 @@ http://home.teleport.com/~oldaker/pdf_files/W7CQ%20Winding%20Bifilar%20Toroids.P
 <text x="66.04" y="22.86" size="1.778" layer="91">1.5uH</text>
 </plain>
 <instances>
-<instance part="T1" gate="G1" x="81.28" y="45.72" smashed="yes" rot="MR0">
-<attribute name="NAME" x="76.2" y="48.26" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="68.58" y="45.72" size="1.778" layer="96" rot="MR180"/>
-</instance>
 <instance part="R1" gate="G$1" x="78.74" y="63.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="77.2414" y="62.23" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="82.042" y="59.69" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R2" gate="G$1" x="88.9" y="38.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="87.4014" y="36.83" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="92.202" y="36.83" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="92.202" y="34.29" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R3" gate="G$1" x="88.9" y="55.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="87.4014" y="54.61" size="1.778" layer="95" rot="R90"/>
@@ -1350,10 +1298,6 @@ http://home.teleport.com/~oldaker/pdf_files/W7CQ%20Winding%20Bifilar%20Toroids.P
 <attribute name="NAME" x="51.816" y="40.259" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="51.816" y="35.179" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R7" gate="G$1" x="25.4" y="35.56" smashed="yes" rot="MR0">
-<attribute name="NAME" x="20.32" y="38.1" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="27.94" y="33.02" size="1.778" layer="96" rot="MR90"/>
-</instance>
 <instance part="GND1" gate="1" x="88.9" y="15.24" smashed="yes">
 <attribute name="VALUE" x="86.36" y="12.7" size="1.778" layer="96"/>
 </instance>
@@ -1373,6 +1317,18 @@ http://home.teleport.com/~oldaker/pdf_files/W7CQ%20Winding%20Bifilar%20Toroids.P
 <attribute name="NAME" x="109.474" y="46.3042" size="1.778" layer="95"/>
 <attribute name="VALUE" x="109.474" y="43.2562" size="1.778" layer="96"/>
 </instance>
+<instance part="AC-SIGNAL-OUT" gate="G$1" x="12.7" y="35.56" smashed="yes" rot="R180">
+<attribute name="NAME" x="9.906" y="34.9758" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="9.906" y="38.0238" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R11" gate="G$1" x="25.4" y="35.56" smashed="yes" rot="R180">
+<attribute name="NAME" x="30.48" y="38.1" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="27.94" y="38.1" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="T1" gate="G$1" x="81.28" y="45.72" smashed="yes" rot="R180">
+<attribute name="NAME" x="76.2" y="45.72" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="76.2" y="48.26" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1386,19 +1342,19 @@ http://home.teleport.com/~oldaker/pdf_files/W7CQ%20Winding%20Bifilar%20Toroids.P
 <wire x1="88.9" y1="43.18" x2="88.9" y2="45.72" width="0.1524" layer="91"/>
 <junction x="88.9" y="45.72"/>
 <wire x1="88.9" y1="45.72" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G1" pin="B"/>
 <wire x1="83.82" y1="45.72" x2="88.9" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="T1" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="A"/>
-<wire x1="25.4" y1="27.94" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="25.4" y1="25.4" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="25.4" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="25.4" x2="38.1" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="E"/>
+<wire x1="33.02" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="25.4" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
 <junction x="33.02" y="25.4"/>
 </segment>
 <segment>
@@ -1420,17 +1376,6 @@ http://home.teleport.com/~oldaker/pdf_files/W7CQ%20Winding%20Bifilar%20Toroids.P
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="50.8" x2="60.96" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G1" pin="C"/>
-<wire x1="78.74" y1="50.8" x2="60.96" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="50.8" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
-<junction x="78.74" y="50.8"/>
-</segment>
-</net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -1440,11 +1385,11 @@ http://home.teleport.com/~oldaker/pdf_files/W7CQ%20Winding%20Bifilar%20Toroids.P
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="T1" gate="G1" pin="E"/>
-<wire x1="78.74" y1="40.64" x2="78.74" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="L1-L2" gate="G$1" pin="C2A"/>
 <wire x1="63.5" y1="25.4" x2="63.5" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="38.1" x2="78.74" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="40.64" x2="78.74" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="T1" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -1473,11 +1418,11 @@ http://home.teleport.com/~oldaker/pdf_files/W7CQ%20Winding%20Bifilar%20Toroids.P
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="40.64" x2="53.34" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="45.72" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="E"/>
-<wire x1="38.1" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="40.64" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="A"/>
+<wire x1="25.4" y1="43.18" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="45.72" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
 <junction x="38.1" y="45.72"/>
 </segment>
 </net>
@@ -1511,6 +1456,24 @@ http://home.teleport.com/~oldaker/pdf_files/W7CQ%20Winding%20Bifilar%20Toroids.P
 <pinref part="AC-SIGNAL" gate="G$1" pin="MOUNT"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="45.72" x2="101.6" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="50.8" x2="60.96" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="50.8" x2="78.74" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="58.42" x2="78.74" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="T1" gate="G$1" pin="E"/>
+<junction x="78.74" y="50.8"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R11" gate="G$1" pin="S"/>
+<pinref part="AC-SIGNAL-OUT" gate="G$1" pin="MOUNT"/>
+<wire x1="20.32" y1="35.56" x2="15.24" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
