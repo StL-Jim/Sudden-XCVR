@@ -590,12 +590,11 @@ Recommended footprint for CDRH2D18/HPNP series inductors from here.</description
 </class>
 </classes>
 <parts>
-<part name="Q1" library="jim_muppet_parts" deviceset="2N2222" device="" package3d_urn="urn:adsk.eagle:package:28728/1"/>
+<part name="Q1" library="jim_muppet_parts" deviceset="2N2222" device="" package3d_urn="urn:adsk.eagle:package:28728/1" value="2N2219A"/>
 <part name="R2" library="jim_muppet_parts" deviceset="RESISTOR-MUPPET" device="MEDIUM-RESISTOR-PADS" value="680R"/>
 <part name="R1" library="jim_muppet_parts" deviceset="RESISTOR-MUPPET" device="MEDIUM-RESISTOR-PADS" value="1K"/>
 <part name="R3" library="jim_muppet_parts" deviceset="RESISTOR-MUPPET" device="MEDIUM-RESISTOR-PADS" value="2.2K"/>
 <part name="R6" library="jim_muppet_parts" deviceset="RESISTOR-MUPPET" device="MEDIUM-RESISTOR-PADS" value="10R"/>
-<part name="R8" library="jim_muppet_parts" deviceset="RESISTOR-MUPPET" device="MEDIUM-RESISTOR-PADS" value="50R"/>
 <part name="C1" library="jim_muppet_parts" deviceset="CAP-MEDIUM-MUPPET" device="" value="100nF"/>
 <part name="C2" library="jim_muppet_parts" deviceset="CAP-MEDIUM-MUPPET" device="" value="100nF"/>
 <part name="C3" library="jim_muppet_parts" deviceset="CAP-MEDIUM-MUPPET" device="" value="100nF"/>
@@ -606,8 +605,8 @@ Recommended footprint for CDRH2D18/HPNP series inductors from here.</description
 <part name="L1" library="jim_muppet_parts" deviceset="INDUCTOR" device="-VLF4012AT-2.2UH" package3d_urn="urn:adsk.eagle:package:37577/1" value="9.5uH"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="H2" library="jim_muppet_parts" deviceset="MOUNT-PAD-SQUARE" device="4.5" package3d_urn="urn:adsk.eagle:package:14295/1" value="AC Signal Out"/>
 </parts>
 <sheets>
 <sheet>
@@ -633,10 +632,6 @@ Recommended footprint for CDRH2D18/HPNP series inductors from here.</description
 <instance part="R6" gate="G$1" x="73.66" y="22.86" smashed="yes" rot="R270">
 <attribute name="NAME" x="75.1586" y="26.67" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="70.358" y="26.67" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="R8" gate="G$1" x="101.6" y="43.18" smashed="yes" rot="R270">
-<attribute name="NAME" x="103.0986" y="44.45" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="98.298" y="44.45" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="C1" gate="G$1" x="50.8" y="43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="47.879" y="44.704" size="1.778" layer="95" rot="R90"/>
@@ -675,11 +670,12 @@ Recommended footprint for CDRH2D18/HPNP series inductors from here.</description
 <instance part="GND2" gate="1" x="73.66" y="12.7" smashed="yes">
 <attribute name="VALUE" x="71.12" y="10.16" size="1.778" layer="96"/>
 </instance>
-<instance part="GND3" gate="1" x="101.6" y="35.56" smashed="yes">
-<attribute name="VALUE" x="99.06" y="33.02" size="1.778" layer="96"/>
-</instance>
 <instance part="GND4" gate="1" x="88.9" y="33.02" smashed="yes" rot="R90">
 <attribute name="VALUE" x="91.44" y="30.48" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="H2" gate="G$1" x="104.14" y="48.26" smashed="yes">
+<attribute name="NAME" x="101.0158" y="48.514" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="99.314" y="43.2562" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -718,9 +714,9 @@ Recommended footprint for CDRH2D18/HPNP series inductors from here.</description
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="48.26" x2="101.6" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="H2" gate="G$1" pin="MOUNT"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -767,10 +763,6 @@ Recommended footprint for CDRH2D18/HPNP series inductors from here.</description
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="73.66" y1="17.78" x2="73.66" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R8" gate="G$1" pin="2"/>
-<pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
