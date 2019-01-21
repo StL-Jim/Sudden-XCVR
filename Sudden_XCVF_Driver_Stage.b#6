@@ -23,19 +23,19 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -46,20 +46,20 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -88,33 +88,33 @@
 <layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
 <layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
 <layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="113" name="IDFDebug" color="7" fill="1" visible="no" active="yes"/>
-<layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
-<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
-<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
-<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
 <layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
@@ -140,31 +140,28 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="231" name="231bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="yes"/>
-<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="yes"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
 <plain>
-<wire x1="3.81" y1="6.35" x2="67.29" y2="6.35" width="0" layer="20"/>
-<wire x1="67.29" y1="6.35" x2="67.29" y2="68.25" width="0" layer="20"/>
-<wire x1="67.29" y1="68.25" x2="3.81" y2="68.25" width="0" layer="20"/>
-<wire x1="3.81" y1="68.25" x2="3.81" y2="6.35" width="0" layer="20"/>
-<text x="19.05" y="35.56" size="2.1844" layer="1" font="vector" ratio="17" distance="43" rot="R90">Driver Stage
-Sudden XCVR
-1/19/19</text>
+<wire x1="3.81" y1="6.35" x2="72.37" y2="6.35" width="0" layer="20"/>
+<wire x1="72.37" y1="6.35" x2="72.37" y2="75.87" width="0" layer="20"/>
+<wire x1="72.37" y1="75.87" x2="3.81" y2="75.87" width="0" layer="20"/>
+<wire x1="3.81" y1="75.87" x2="3.81" y2="6.35" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="jim_muppet_parts">
@@ -306,8 +303,7 @@ I'm using it for where to start volate in.</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.889" drill="0">
-<clearance class="0" value="0.9398"/>
+<class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
 <designrules name="default">
@@ -494,66 +490,66 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="jim_muppet_parts" package="CAP-MEDIUM-MUPPET" value="100nF" x="15.24" y="30.48" smashed="yes">
-<attribute name="NAME" x="11.557" y="32.385" size="1.27" layer="25" font="vector"/>
-<attribute name="PROD_ID" value="JIM-CAP Large SMT" x="43.18" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="11.303" y="27.305" size="1.27" layer="27" font="vector"/>
+<element name="C1" library="jim_muppet_parts" package="CAP-MEDIUM-MUPPET" value="100nF" x="15.24" y="34.29" smashed="yes">
+<attribute name="NAME" x="11.557" y="36.195" size="1.27" layer="25" font="vector"/>
+<attribute name="PROD_ID" value="JIM-CAP Large SMT" x="43.18" y="8.89" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="11.303" y="31.115" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="C2" library="jim_muppet_parts" package="CAP-MEDIUM-MUPPET" value="100nF" x="38.1" y="53.34" smashed="yes">
-<attribute name="NAME" x="34.417" y="55.245" size="1.27" layer="25" font="vector"/>
-<attribute name="PROD_ID" value="JIM-CAP Large SMT" x="76.2" y="27.94" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="34.163" y="50.165" size="1.27" layer="27" font="vector"/>
+<element name="C2" library="jim_muppet_parts" package="CAP-MEDIUM-MUPPET" value="100nF" x="38.1" y="63.5" smashed="yes">
+<attribute name="NAME" x="34.417" y="65.405" size="1.27" layer="25" font="vector"/>
+<attribute name="PROD_ID" value="JIM-CAP Large SMT" x="76.2" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="34.163" y="60.325" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="C3" library="jim_muppet_parts" package="CAP-MEDIUM-MUPPET" value="100nF" x="57.15" y="21.59" smashed="yes" rot="R180">
-<attribute name="NAME" x="60.833" y="19.685" size="1.27" layer="25" font="vector" rot="R180"/>
-<attribute name="PROD_ID" value="JIM-CAP Large SMT" x="39.37" y="55.88" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="61.087" y="24.765" size="1.27" layer="27" font="vector" rot="R180"/>
+<element name="C3" library="jim_muppet_parts" package="CAP-MEDIUM-MUPPET" value="100nF" x="57.15" y="25.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="60.833" y="23.495" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="PROD_ID" value="JIM-CAP Large SMT" x="39.37" y="59.69" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="61.087" y="28.575" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="C4" library="jim_muppet_parts" package="CAP-MEDIUM-MUPPET" value="100nF" x="38.1" y="62.23" smashed="yes">
-<attribute name="NAME" x="34.417" y="64.135" size="1.27" layer="25" font="vector"/>
-<attribute name="PROD_ID" value="JIM-CAP Large SMT" x="66.04" y="27.94" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="34.163" y="59.055" size="1.27" layer="27" font="vector"/>
+<element name="C4" library="jim_muppet_parts" package="CAP-MEDIUM-MUPPET" value="100nF" x="38.1" y="69.85" smashed="yes">
+<attribute name="NAME" x="34.417" y="71.755" size="1.27" layer="25" font="vector"/>
+<attribute name="PROD_ID" value="JIM-CAP Large SMT" x="66.04" y="35.56" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="34.163" y="66.675" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="C5" library="jim_muppet_parts" package="CAP-MEDIUM-MUPPET" value="100nF" x="59.69" y="34.29" smashed="yes">
-<attribute name="NAME" x="56.007" y="36.195" size="1.27" layer="25" font="vector"/>
-<attribute name="PROD_ID" value="JIM-CAP Large SMT" x="97.79" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="55.753" y="31.115" size="1.27" layer="27" font="vector"/>
+<element name="C5" library="jim_muppet_parts" package="CAP-MEDIUM-MUPPET" value="100nF" x="59.69" y="38.1" smashed="yes">
+<attribute name="NAME" x="56.007" y="40.005" size="1.27" layer="25" font="vector"/>
+<attribute name="PROD_ID" value="JIM-CAP Large SMT" x="97.79" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="55.753" y="34.925" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="H1" library="jim_muppet_parts" package="PAD-SQUARE" package3d_urn="urn:adsk.eagle:package:14295/1" value="AC Signal In" x="13.97" y="19.05" smashed="yes"/>
-<element name="L1" library="jim_muppet_parts" package="INDUCTOR_2.2UH" package3d_urn="urn:adsk.eagle:package:37577/1" value="9.5uH" x="50.8" y="58.42" smashed="yes" rot="R270">
-<attribute name="NAME" x="52.959" y="60.96" size="0.8128" layer="25" rot="R270"/>
-<attribute name="PROD_ID" value="NDUC-09513" x="8.89" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="47.625" y="60.96" size="0.8128" layer="27" rot="R270"/>
+<element name="H1" library="jim_muppet_parts" package="PAD-SQUARE" package3d_urn="urn:adsk.eagle:package:14295/1" value="AC Signal In" x="12.7" y="20.32" smashed="yes"/>
+<element name="L1" library="jim_muppet_parts" package="INDUCTOR_2.2UH" package3d_urn="urn:adsk.eagle:package:37577/1" value="9.5uH" x="50.8" y="66.04" smashed="yes" rot="R270">
+<attribute name="NAME" x="52.959" y="68.58" size="0.8128" layer="25" rot="R270"/>
+<attribute name="PROD_ID" value="NDUC-09513" x="8.89" y="46.99" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="47.625" y="68.58" size="0.8128" layer="27" rot="R270"/>
 </element>
-<element name="P+1" library="jim_muppet_parts" package="POWER-IN-PAD" value="+13.8V" x="13.97" y="59.69" smashed="yes"/>
-<element name="Q1" library="jim_muppet_parts" package="2N2222-TO18" package3d_urn="urn:adsk.eagle:package:28728/1" value="2N2222" x="45.72" y="30.48" smashed="yes" rot="MR36.8">
-<attribute name="NAME" x="42.140553125" y="28.87543125" size="1.27" layer="26" ratio="10" rot="MR216.8"/>
-<attribute name="VALUE" x="44.7248125" y="34.2379875" size="1.27" layer="28" ratio="10" rot="MR216.8"/>
+<element name="P+1" library="jim_muppet_parts" package="POWER-IN-PAD" value="+13.8V" x="13.97" y="63.5" smashed="yes"/>
+<element name="Q1" library="jim_muppet_parts" package="2N2222-TO18" package3d_urn="urn:adsk.eagle:package:28728/1" value="2N2222" x="45.72" y="34.29" smashed="yes" rot="MR36.8">
+<attribute name="NAME" x="42.140553125" y="32.68543125" size="1.27" layer="26" ratio="10" rot="MR216.8"/>
+<attribute name="VALUE" x="44.7248125" y="38.0479875" size="1.27" layer="28" ratio="10" rot="MR216.8"/>
 </element>
-<element name="R1" library="jim_muppet_parts" package="RESITOR-MUPPET" value="1K" x="26.67" y="22.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="24.638" y="21.59" size="1.27" layer="25" rot="R90"/>
-<attribute name="PROD_ID" value="MUP-RES" x="30.48" y="66.04" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="29.972" y="21.463" size="1.27" layer="27" rot="R90"/>
+<element name="R1" library="jim_muppet_parts" package="RESITOR-MUPPET" value="1K" x="26.67" y="24.13" smashed="yes" rot="R90">
+<attribute name="NAME" x="24.638" y="22.86" size="1.27" layer="25" rot="R90"/>
+<attribute name="PROD_ID" value="MUP-RES" x="30.48" y="67.31" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="29.972" y="22.733" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R2" library="jim_muppet_parts" package="RESITOR-MUPPET" value="680R" x="26.67" y="39.37" smashed="yes" rot="R90">
-<attribute name="NAME" x="24.638" y="35.56" size="1.27" layer="25" rot="R90"/>
-<attribute name="PROD_ID" value="MUP-RES" x="44.45" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="29.972" y="35.433" size="1.27" layer="27" rot="R90"/>
+<element name="R2" library="jim_muppet_parts" package="RESITOR-MUPPET" value="680R" x="26.67" y="44.45" smashed="yes" rot="R90">
+<attribute name="NAME" x="24.638" y="40.64" size="1.27" layer="25" rot="R90"/>
+<attribute name="PROD_ID" value="MUP-RES" x="44.45" y="62.23" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="29.972" y="40.513" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R3" library="jim_muppet_parts" package="RESITOR-MUPPET" value="2.2K" x="38.1" y="43.18" smashed="yes" rot="R180">
-<attribute name="NAME" x="41.91" y="41.148" size="1.27" layer="25" rot="R180"/>
-<attribute name="PROD_ID" value="MUP-RES" x="10.16" y="60.96" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="42.037" y="46.482" size="1.27" layer="27" rot="R180"/>
+<element name="R3" library="jim_muppet_parts" package="RESITOR-MUPPET" value="2.2K" x="38.1" y="49.53" smashed="yes" rot="R180">
+<attribute name="NAME" x="41.91" y="47.498" size="1.27" layer="25" rot="R180"/>
+<attribute name="PROD_ID" value="MUP-RES" x="10.16" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="42.037" y="52.832" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R6" library="jim_muppet_parts" package="RESITOR-MUPPET" value="10R" x="35.56" y="21.59" smashed="yes" rot="R180">
-<attribute name="NAME" x="36.83" y="19.558" size="1.27" layer="25" rot="R180"/>
-<attribute name="PROD_ID" value="MUP-RES" x="-2.54" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="36.957" y="24.892" size="1.27" layer="27" rot="R180"/>
+<element name="R6" library="jim_muppet_parts" package="RESITOR-MUPPET" value="10R" x="35.56" y="25.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="36.83" y="23.368" size="1.27" layer="25" rot="R180"/>
+<attribute name="PROD_ID" value="MUP-RES" x="-2.54" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="36.957" y="28.702" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R8" library="jim_muppet_parts" package="RESITOR-MUPPET" value="50R" x="62.23" y="46.99" smashed="yes" rot="R90">
-<attribute name="NAME" x="60.198" y="43.18" size="1.27" layer="25" rot="R90"/>
-<attribute name="PROD_ID" value="MUP-RES" x="88.9" y="64.77" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="65.532" y="43.053" size="1.27" layer="27" rot="R90"/>
+<element name="R8" library="jim_muppet_parts" package="RESITOR-MUPPET" value="50R" x="62.23" y="50.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="60.198" y="46.99" size="1.27" layer="25" rot="R90"/>
+<attribute name="PROD_ID" value="MUP-RES" x="88.9" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="65.532" y="46.863" size="1.27" layer="27" rot="R90"/>
 </element>
 </elements>
 <signals>
@@ -562,10 +558,11 @@ design rules under a new name.</description>
 <contactref element="C1" pad="2"/>
 <contactref element="R2" pad="P$1"/>
 <contactref element="R1" pad="P$2"/>
-<wire x1="41.833153125" y1="31.00865625" x2="18.249" y2="31.00865625" width="0.889" layer="1"/>
-<wire x1="18.249" y1="31.00865625" x2="18.249" y2="30.48" width="0.889" layer="1"/>
-<wire x1="26.67" y1="25.654" x2="26.67" y2="36.576" width="0.889" layer="1"/>
-<wire x1="18.249" y1="30.48" x2="26.67" y2="25.654" width="0" layer="19" extent="1-1"/>
+<wire x1="41.833153125" y1="34.81865625" x2="26.67" y2="34.81865625" width="0.1524" layer="1"/>
+<wire x1="26.67" y1="34.81865625" x2="18.77765625" y2="34.81865625" width="0.1524" layer="1"/>
+<wire x1="18.77765625" y1="34.81865625" x2="18.249" y2="34.29" width="0.1524" layer="1"/>
+<wire x1="26.67" y1="41.656" x2="26.67" y2="34.81865625" width="0.1524" layer="1"/>
+<wire x1="26.67" y1="26.924" x2="26.67" y2="34.81865625" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="Q1" pad="3"/>
@@ -573,51 +570,49 @@ design rules under a new name.</description>
 <contactref element="R3" pad="P$1"/>
 <contactref element="L1" pad="P$2"/>
 <contactref element="C2" pad="2"/>
-<wire x1="56.681" y1="34.29" x2="50.8" y2="34.29" width="0.889" layer="1"/>
-<wire x1="50.8" y1="34.29" x2="44.45" y2="34.29" width="0.889" layer="1"/>
-<wire x1="40.894" y1="43.18" x2="40.894" y2="48.26" width="0.889" layer="1"/>
-<wire x1="41.109" y1="53.34" x2="40.894" y2="53.125" width="0.889" layer="1"/>
-<wire x1="40.894" y1="53.125" x2="40.894" y2="48.26" width="0.889" layer="1"/>
-<wire x1="40.894" y1="48.26" x2="50.8" y2="48.26" width="0.889" layer="1"/>
-<wire x1="50.8" y1="48.26" x2="50.8" y2="54.615" width="0.889" layer="1"/>
-<wire x1="50.8" y1="34.29" x2="50.8" y2="48.26" width="0.889" layer="1"/>
-<wire x1="44.45" y1="34.29" x2="44.115434375" y2="34.05944375" width="0" layer="19" extent="1-1"/>
+<wire x1="41.109" y1="63.5" x2="41.109" y2="57.15" width="0.1524" layer="1"/>
+<wire x1="41.109" y1="57.15" x2="41.109" y2="49.745" width="0.1524" layer="1"/>
+<wire x1="41.109" y1="49.745" x2="40.894" y2="49.53" width="0.1524" layer="1"/>
+<wire x1="44.115434375" y1="37.86944375" x2="44.345990625" y2="38.1" width="0.1524" layer="1"/>
+<wire x1="44.345990625" y1="38.1" x2="50.8" y2="38.1" width="0.1524" layer="1"/>
+<wire x1="50.8" y1="38.1" x2="56.681" y2="38.1" width="0.1524" layer="1"/>
+<wire x1="50.8" y1="62.235" x2="50.8" y2="57.15" width="0.1524" layer="1"/>
+<wire x1="50.8" y1="57.15" x2="50.8" y2="38.1" width="0.1524" layer="1"/>
+<wire x1="41.109" y1="57.15" x2="50.8" y2="57.15" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="R8" pad="P$1"/>
 <contactref element="C5" pad="2"/>
-<wire x1="62.699" y1="34.29" x2="62.699" y2="44.45" width="0.889" layer="1"/>
-<wire x1="62.699" y1="44.45" x2="62.23" y2="44.45" width="0.889" layer="1"/>
-<wire x1="62.23" y1="44.45" x2="62.23" y2="44.196" width="0" layer="19" extent="1-1"/>
+<wire x1="62.23" y1="48.006" x2="62.699" y2="47.537" width="0.1524" layer="1"/>
+<wire x1="62.699" y1="47.537" x2="62.699" y2="38.1" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="C2" pad="1"/>
 <contactref element="R3" pad="P$2"/>
 <contactref element="R2" pad="P$2"/>
-<wire x1="35.306" y1="43.18" x2="35.306" y2="49.53" width="0.889" layer="1"/>
-<wire x1="26.67" y1="42.164" x2="26.67" y2="48.26" width="0.889" layer="1"/>
-<wire x1="26.67" y1="48.26" x2="35.091" y2="48.26" width="0.889" layer="1"/>
-<wire x1="35.091" y1="53.34" x2="35.091" y2="49.53" width="0.889" layer="1"/>
-<wire x1="35.091" y1="49.53" x2="35.091" y2="48.26" width="0.889" layer="1"/>
-<wire x1="35.091" y1="49.53" x2="35.306" y2="49.53" width="0.889" layer="1"/>
+<wire x1="35.306" y1="49.53" x2="35.306" y2="57.15" width="0.1524" layer="1"/>
+<wire x1="35.306" y1="57.15" x2="35.306" y2="63.285" width="0.1524" layer="1"/>
+<wire x1="35.306" y1="63.285" x2="35.091" y2="63.5" width="0.1524" layer="1"/>
+<wire x1="35.306" y1="57.15" x2="26.67" y2="57.15" width="0.1524" layer="1"/>
+<wire x1="26.67" y1="57.15" x2="26.67" y2="47.244" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="H1" pad="PAD"/>
 <contactref element="C1" pad="1"/>
-<wire x1="12.231" y1="30.48" x2="12.231" y2="19.05" width="0.889" layer="1"/>
-<wire x1="12.231" y1="19.05" x2="13.97" y2="19.05" width="0.889" layer="1"/>
+<wire x1="12.231" y1="34.29" x2="12.231" y2="20.789" width="0.1524" layer="1"/>
+<wire x1="12.7" y1="20.32" x2="12.231" y2="20.789" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="L1" pad="P$1"/>
 <contactref element="C4" pad="2"/>
-<wire x1="41.114" y1="62.225" x2="41.109" y2="62.23" width="0.1524" layer="1"/>
-<wire x1="50.8" y1="62.225" x2="41.114" y2="62.225" width="0.889" layer="1"/>
+<wire x1="50.8" y1="69.845" x2="41.114" y2="69.845" width="0.1524" layer="1"/>
+<wire x1="41.114" y1="69.845" x2="41.109" y2="69.85" width="0.1524" layer="1"/>
 </signal>
 <signal name="+12V">
 <contactref element="C4" pad="1"/>
 <contactref element="P+1" pad="VCC"/>
-<wire x1="35.091" y1="62.23" x2="13.97" y2="62.23" width="0.889" layer="1"/>
-<wire x1="13.97" y1="62.23" x2="13.97" y2="59.69" width="0.889" layer="1"/>
+<wire x1="35.091" y1="69.85" x2="13.97" y2="69.85" width="0.1524" layer="1"/>
+<wire x1="13.97" y1="69.85" x2="13.97" y2="63.5" width="0.1524" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="R1" pad="P$1"/>
@@ -626,18 +621,19 @@ design rules under a new name.</description>
 <contactref element="C3" pad="1"/>
 <polygon width="0.1524" layer="1">
 <vertex x="3.81" y="6.35"/>
-<vertex x="3.81" y="72.39"/>
-<vertex x="67.31" y="72.39"/>
-<vertex x="67.31" y="6.35"/>
+<vertex x="3.81" y="76.2"/>
+<vertex x="72.39" y="76.2"/>
+<vertex x="72.39" y="6.35"/>
 </polygon>
 </signal>
 <signal name="N$7">
 <contactref element="R6" pad="P$1"/>
 <contactref element="Q1" pad="1"/>
 <contactref element="C3" pad="2"/>
-<wire x1="54.141" y1="21.59" x2="45.54223125" y2="21.59" width="0.889" layer="1"/>
-<wire x1="45.54223125" y1="21.59" x2="38.354" y2="21.59" width="0.889" layer="1"/>
-<wire x1="45.54223125" y1="30.45438125" x2="45.54223125" y2="21.59" width="0.889" layer="1"/>
+<wire x1="45.54223125" y1="34.26438125" x2="45.54223125" y2="25.4" width="0.1524" layer="1"/>
+<wire x1="54.141" y1="25.4" x2="45.54223125" y2="25.4" width="0.1524" layer="1"/>
+<wire x1="45.54223125" y1="25.4" x2="37.92223125" y2="25.4" width="0.1524" layer="1"/>
+<wire x1="37.92223125" y1="25.4" x2="38.354" y2="25.4" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -650,10 +646,6 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
